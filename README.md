@@ -6,7 +6,7 @@ Given two data files transaction.csv, user.csv
 
 ###### user file consists the following fields: ######
   - user_Id
-  -EmailId
+  - EmailId
   - NativeLanguage
   - Location
 ###### transaction file consists of the following fields: ######

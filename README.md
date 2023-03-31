@@ -1,15 +1,15 @@
 # Spark-Assignments
 
-#### Spark Assignment 1 ####
+### Spark Assignment 1 ###
 
 Given two data files transaction.csv, user.csv
 
-##### user file consists the following fields: #####
+#### user file consists the following fields: ####
   - user_Id
   - EmailId
   - NativeLanguage
   - Location
-##### transaction file consists of the following fields: #####
+#### transaction file consists of the following fields: ####
   - Transaction_id
   - product_id
   - userId
@@ -18,12 +18,12 @@ Given two data files transaction.csv, user.csv
   
 userId in both the files denotes the same.
 
-##### Tasks to be performed with above files are as follows: #####
+#### Tasks to be performed with above files are as follows: ####
   - 1.Count of unique locations where each product is sold.
   - 2.Find out products bought by each user.
   - 3.Total spending done by each user on each product.
   
-##### Code snippet consists of functions as below :#####
+#### Code snippet consists of functions as below : ####
 
   - user_DataFrame
   This function reads the user.csv file and data is been stored into a dataframe.

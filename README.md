@@ -4,7 +4,7 @@
 
 Given two data files transaction.csv, user.csv
 
-#### user file consists the following fields: ####
+#### user file consists of the following fields: ####
   - user_Id
   - EmailId
   - NativeLanguage
@@ -25,17 +25,17 @@ userId in both the files denotes the same.
   
 #### Code snippet consists of functions as below : ####
 
-  - user_DataFrame
+  - user_DataFrame : 
   This function reads the user.csv file and data is been stored into a dataframe.
-  - transaction_DataFrame
+  - transaction_DataFrame : 
   This function reds the transaction.csv file and data is been stored into another dataframe.
-  - join_DataFrame
+  - join_DataFrame : 
   This function joins the two dataframes based on inner join condition with userid column.
-  - unique_loc_count
+  - unique_loc_count : 
   This functions accepts the joined result of two dataframes as an argument and computes the count of unique locations where each product is sold.
-  - user_prod
+  - user_prod : 
   This function accepts the joined result of two dataframes as an argument and computes the products bought by each user.
-  -tot_spend
+  -tot_spend : 
   This function accepst the joined result of two dataframes as an argument and computes the total amount of spending done by each user on each product.
   
 core directory has two files

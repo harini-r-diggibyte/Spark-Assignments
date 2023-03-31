@@ -36,7 +36,7 @@ def user_prod(join_df):
         agg(count("product_description").alias("product_count"))
     return user_bought
 
-#total spending done by each user on each product
+#total spending done by each user on each product.
 def tot_spend(join_df):
     total_spend=join_df.groupby("userid","product_id").\
         agg(sum("price").alias("total_spend"))
